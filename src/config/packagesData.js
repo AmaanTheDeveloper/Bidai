@@ -141,7 +141,7 @@ export const packagesData = [
     registrationFee: "Registration Charges: PKR 10,500 Extra",
     catering: "100 Persons Dinner — Chicken Biryani, Chicken Qorma, Naan, Raita, Salad & Kheer.",
     cardImage: `${import.meta.env.BASE_URL}images/cards/card_pkg_d1.jpeg`,
-    fullSetImage: `${import.meta.env.BASE_URL}packages images/pak D1.jpeg`,
+    fullSetImage: `${import.meta.env.BASE_URL}packages-images/pak D1.jpeg`,
     description: "Special Karachi Rukhsati package featuring 3-door wardrobe, bedroom furniture, appliances and catering for 100 guests.",
     shortInclusions: [
       "Double Bed",
