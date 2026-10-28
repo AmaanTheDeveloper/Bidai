@@ -23,7 +23,7 @@ export const packagesData = [
     badge: "🎁 Gold Set Free",
     registrationFee: "Registration Charges: PKR 10,500 Extra",
     catering: "100 Persons Dinner — Chicken Biryani, Chicken Qorma, Naan, Raita, Salad & Kheer.",
-    cardImage: `${import.meta.env.BASE_URL}images/cards/card_pkg_a.jpeg`,
+    cardImage: `${import.meta.env.BASE_URL}packages-images/card_pkg_a.jpg`,
     fullSetImage: `${import.meta.env.BASE_URL}packages-images/pak A.jpeg`,
     description: "Complete starter Rukhsati package with essential furniture, household items, electronics and catering for 100 guests.",
     shortInclusions: [
@@ -53,7 +53,7 @@ export const packagesData = [
     badge: "🎁 Gold Set Free",
     registrationFee: "Registration Charges: PKR 10,500 Extra",
     catering: "None",
-    cardImage: `${import.meta.env.BASE_URL}images/cards/card_pkg_a1.jpeg`,
+    cardImage: `${import.meta.env.BASE_URL}packages-images/card_pkg_a1.jpg`,
      fullSetImage: `${import.meta.env.BASE_URL}packages-images/pak A1.jpeg`,
     description: "Economical essential Rukhsati package covering double bed setup, home electronics, kitchen essentials & gift items.",
     shortInclusions: [
@@ -83,7 +83,7 @@ export const packagesData = [
     badge: "🏍️ Bike Included • 🎁 Gold Set Free",
     registrationFee: "Registration Charges: PKR 10,500 Extra",
     catering: "100 Persons Dinner — Chicken Biryani, Chicken Qorma, Naan, Raita, Salad & Kheer.",
-    cardImage: `${import.meta.env.BASE_URL}images/cards/card_pkg_b.jpeg`,
+    cardImage: `${import.meta.env.BASE_URL}packages-images/card_pkg_b.jpg`,
     fullSetImage: `${import.meta.env.BASE_URL}packages-images/pak B.jpeg`,
     description: "Popular grand Rukhsati package including a brand new Motorcycle/Bike, full furniture, electronics and 100 persons dinner.",
     shortInclusions: [
@@ -113,7 +113,7 @@ export const packagesData = [
     badge: "POPULAR",
     registrationFee: "Registration Charges: PKR 10,500 Extra",
     catering: "300 Persons Dinner — Chicken Biryani, Chicken Qorma/Karahi, Naan, Raita, Salad & Kheer.",
-    cardImage: `${import.meta.env.BASE_URL}images/cards/card_pkg_d.jpeg`,
+    cardImage: `${import.meta.env.BASE_URL}packages-images/card_pkg_d.jpg`,
     fullSetImage: `${import.meta.env.BASE_URL}packages-images/pak D.jpeg`,
     description: "Comprehensive luxury Rukhsati package with complete master furniture, 72-piece dinner set, LED TV & catering for 300 guests.",
     shortInclusions: [
@@ -140,7 +140,7 @@ export const packagesData = [
     badge: "📍 Only For Karachi",
     registrationFee: "Registration Charges: PKR 10,500 Extra",
     catering: "100 Persons Dinner — Chicken Biryani, Chicken Qorma, Naan, Raita, Salad & Kheer.",
-    cardImage: `${import.meta.env.BASE_URL}images/cards/card_pkg_d1.jpeg`,
+    cardImage: `${import.meta.env.BASE_URL}packages-images/card_pkg_d1.jpg`,
     fullSetImage: `${import.meta.env.BASE_URL}packages-images/pak D1.jpeg`,
     description: "Special Karachi Rukhsati package featuring 3-door wardrobe, bedroom furniture, appliances and catering for 100 guests.",
     shortInclusions: [
@@ -170,7 +170,7 @@ export const packagesData = [
     badge: "COMPLETE SOLUTION",
     registrationFee: "Registration Charges: PKR 10,500 Extra",
     catering: "200 Persons Dinner — Chicken Biryani, Chicken Karahi, Naan, Raita, Salad & Kheer.",
-    cardImage: `${import.meta.env.BASE_URL}images/cards/card_pkg_all_in_one.jpeg`,
+    cardImage: `${import.meta.env.BASE_URL}packages-images/card_pkg_all_in_one.jpg`,
     fullSetImage: `${import.meta.env.BASE_URL}packages-images/All in One.jpeg`,
     description: "Ultimate all-inclusive package combining wedding hall services, bridal makeup, photo/video shoot with complete household furniture and 200 persons dinner.",
     shortInclusions: [
