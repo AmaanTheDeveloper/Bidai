@@ -59,10 +59,10 @@ export default function Header({ onOpenPrivacy, onOpenTerms }) {
             className="flex items-center gap-3 group"
           >
             <img 
-              src="/packages-images/logo.jpeg" 
-              alt="Bidai Logo" 
-              className="h-10 sm:h-12 w-auto object-contain rounded-md border border-brand-gold/40 shadow-xs group-hover:scale-105 transition-transform" 
-            />
+  src={`${import.meta.env.BASE_URL}packages-images/logo.jpeg`}
+  alt="Bidai Logo" 
+  className="h-10 sm:h-12 w-auto object-contain rounded-md border border-brand-gold/40 shadow-xs group-hover:scale-105 transition-transform" 
+/>
             <div className="flex flex-col">
               <span className="font-serif text-2xl font-bold tracking-wider text-brand-maroon leading-tight">
                 BIDAI
