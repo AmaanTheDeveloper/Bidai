@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: #241F20;
+    background-color: #F8F5F0;
+  }
+
+  h1, h2, h3, h4, .font-serif-title {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom Wedding Motif Pattern & Utilities */
+.bg-wedding-pattern {
+  background-color: #F8F5F0;
+  background-image: radial-gradient(#C9A227 0.5px, transparent 0.5px), radial-gradient(#C9A227 0.5px, #F8F5F0 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  background-opacity: 0.04;
+}
+
+.gold-border-gradient {
+  border-image: linear-gradient(to right, transparent, #C9A227, transparent) 1;
+}
+
+.gold-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, #C9A227 50%, transparent 100%);
+  opacity: 0.4;
+}
+
+.maroon-gradient-btn {
+  background: linear-gradient(135deg, #6F1D2A 0%, #581721 100%);
+  transition: all 0.3s ease;
+}
+
+.maroon-gradient-btn:hover {
+  background: linear-gradient(135deg, #8C2737 0%, #6F1D2A 100%);
+  box-shadow: 0 4px 15px rgba(111, 29, 42, 0.25);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F5F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9A227;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6F1D2A;
+}
