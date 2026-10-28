@@ -140,7 +140,7 @@ export default function Header({ onOpenPrivacy, onOpenTerms }) {
             aria-label="Bidai Home"
           >
             <img
-              src={import.meta.env.BASE_URL + 'packages-images/logo.jpg'}
+              src={import.meta.env.BASE_URL + 'packages-images/logo.jpeg'}
               alt="Bidai Logo"
               className="h-10 sm:h-12 w-auto object-contain rounded-md border border-brand-gold/40 shadow-xs group-hover:scale-105 transition-transform"
             />
